@@ -8,7 +8,7 @@ public class Airplane implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
-    private int id;
+    private Integer id;
     private String model;
     private String company;
     private int places;
