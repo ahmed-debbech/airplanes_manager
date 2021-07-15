@@ -26,7 +26,7 @@ public class AirplaneController {
     @GetMapping("/get/{id}")
     public ResponseEntity<Airplane> getAll(@PathVariable("id") Integer id){
         //List<Airplane> list = this.service.getOne(id);
-        //return new ResponseEntity<Airplane>(list, HttpStatus.valueOf(200));
+        //return new Res ponseEntity<Airplane>(list, HttpStatus.valueOf(200));
         return null;
     }
     @PostMapping("/add")
